@@ -207,6 +207,18 @@ extension QuizViewController {
     tempCountry = Country(name: "Portuguese", bcp47Code: "pt-BR", textToRead: "A aprendizagem é um longa busca que dura toda a vida.", flagImageName: "brazilFlag")
     languageChoices.append(tempCountry)
     
+    // Taiwan Mandarin Language
+    tempCountry = Country(name: "Mandarin Taiwan", bcp47Code: "zh-TW", textToRead: "學習是一輩子的追求", flagImageName: "taiwanFlag")
+    languageChoices.append(tempCountry)
+    
+    // Cantonese Language
+    tempCountry = Country(name: "Cantonese", bcp47Code: "zh-HK", textToRead: "學習是一輩子的追求", flagImageName: "hongKongFlag")
+    languageChoices.append(tempCountry)
+    
+    // Mandarin China
+    tempCountry = Country(name: "Mandarin China", bcp47Code: "zh-CN", textToRead: "学习是一辈子的追求", flagImageName: "chinaFlag")
+    languageChoices.append(tempCountry)
+    
   }
   
   
